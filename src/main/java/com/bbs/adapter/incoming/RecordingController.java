@@ -1,19 +1,16 @@
-package com.kb.test.kbtest.adapter.incoming;
+package com.bbs.adapter.incoming;
 
-import com.kb.test.kbtest.adapter.outgoing.RecordingDto.RecordingDto;
-import com.kb.test.kbtest.adapter.outgoing.entity.Recording;
-import com.kb.test.kbtest.adapter.outgoing.entity.RecordingFile;
-import com.kb.test.kbtest.adapter.outgoing.port.RecordingPort;
+import com.bbs.adapter.outgoing.entity.Recording;
+import com.bbs.adapter.outgoing.entity.RecordingFile;
+import com.bbs.adapter.outgoing.port.RecordingPort;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/v1")

@@ -1,4 +1,4 @@
-package com.kb.test.kbtest.adapter.outgoing.entity;
+package com.bbs.adapter.outgoing.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

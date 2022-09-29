@@ -1,7 +1,7 @@
-package com.kb.test.kbtest.adapter.outgoing.repository;
+package com.bbs.adapter.outgoing.repository;
 
-import com.kb.test.kbtest.adapter.outgoing.entity.Recording;
-import com.kb.test.kbtest.adapter.outgoing.entity.RecordingFile;
+import com.bbs.adapter.outgoing.entity.Recording;
+import com.bbs.adapter.outgoing.entity.RecordingFile;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +9,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class RecordingRepositoryTest {

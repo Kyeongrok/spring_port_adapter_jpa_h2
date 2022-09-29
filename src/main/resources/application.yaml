@@ -6,3 +6,12 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+    check-template: true
+  devtools:
+    livereload:
+      enabled: true
+      port: 35729

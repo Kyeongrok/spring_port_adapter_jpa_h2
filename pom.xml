@@ -8,11 +8,11 @@
         <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.kb.test</groupId>
-    <artifactId>kbtest</artifactId>
+    <groupId>com</groupId>
+    <artifactId>bbs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kbtest</name>
-    <description>kbtest</description>
+    <name>bbs</name>
+    <description>simple bbs with login</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -44,6 +44,21 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-bean-validators</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+
     </dependencies>
 
     <build>

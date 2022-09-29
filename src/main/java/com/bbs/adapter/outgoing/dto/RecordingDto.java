@@ -1,6 +1,6 @@
-package com.kb.test.kbtest.adapter.outgoing.RecordingDto;
+package com.bbs.adapter.outgoing.dto;
 
-import com.kb.test.kbtest.adapter.outgoing.entity.RecordingFile;
+import com.bbs.adapter.outgoing.entity.RecordingFile;
 import lombok.Getter;
 import lombok.Setter;
 

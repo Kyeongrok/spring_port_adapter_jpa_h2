@@ -1,9 +1,8 @@
-package com.kb.test.kbtest.adapter.outgoing;
+package com.bbs.adapter.outgoing;
 
-import com.kb.test.kbtest.adapter.outgoing.entity.Recording;
-import com.kb.test.kbtest.adapter.outgoing.port.RecordingPort;
-import com.kb.test.kbtest.adapter.outgoing.repository.RecordingRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.bbs.adapter.outgoing.entity.Recording;
+import com.bbs.adapter.outgoing.port.RecordingPort;
+import com.bbs.adapter.outgoing.repository.RecordingRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;

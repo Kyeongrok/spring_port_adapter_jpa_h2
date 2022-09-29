@@ -1,6 +1,6 @@
-package com.kb.test.kbtest.adapter.outgoing.port;
+package com.bbs.adapter.outgoing.port;
 
-import com.kb.test.kbtest.adapter.outgoing.entity.Recording;
+import com.bbs.adapter.outgoing.entity.Recording;
 
 import java.util.Optional;
 
